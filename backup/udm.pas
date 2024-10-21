@@ -16,6 +16,9 @@ type
     DSsetor: TDataSource;
     DsConsultasetor: TDataSource;
     zQconsultasetor: TZQuery;
+    zQconsultasetorEMAIL: TZRawStringField;
+    zQconsultasetorID: TZIntegerField;
+    zQconsultasetorNOME: TZRawStringField;
     zQsetor: TZQuery;
     zQsetorEMAIL: TZRawStringField;
     zQsetorID: TZIntegerField;

@@ -31,6 +31,35 @@ object DM: TDM
     Params = <>
     Left = 120
     Top = 16
+    object zQconsultasetorID: TZIntegerField
+      FieldKind = fkData
+      FieldName = 'ID'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = True
+    end
+    object zQconsultasetorNOME: TZRawStringField
+      FieldKind = fkData
+      FieldName = 'NOME'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 100
+    end
+    object zQconsultasetorEMAIL: TZRawStringField
+      FieldKind = fkData
+      FieldName = 'EMAIL'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 100
+    end
   end
   object DsConsultasetor: TDataSource
     DataSet = zQconsultasetor
