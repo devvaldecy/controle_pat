@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Patrimonio.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="206"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uprincipal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="f_principal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="38"/>
+        <CursorPos X="32" Y="43"/>
+        <UsageCount Value="206"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ucadset.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="f_cadastrossetor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="219"/>
+        <CursorPos X="25" Y="245"/>
+        <UsageCount Value="195"/>
+      </Unit>
+      <Unit>
+        <Filename Value="udm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DM"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="5"/>
+        <CursorPos X="67" Y="8"/>
+        <UsageCount Value="169"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Users\AUDIO\AppData\Local\lazarus\onlinepackagemanager\packages\jvcllaz\run\JvDB\jvdbcontrols.pas"/>
+        <UnitName Value="JvDBControls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="211"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Users\AUDIO\Downloads\Lazarus\Aula_02\uprincipal.lfm"/>
+        <HasResources Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <UsageCount Value="7"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="udm.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="33"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="-1"/>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
