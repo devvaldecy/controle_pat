@@ -26,6 +26,7 @@ type
     Shape1: TShape;
     btnFechar: TSpeedButton;
     procedure btnFecharClick(Sender: TObject);
+    procedure btnLoginClick(Sender: TObject);
     procedure btnResetClick(Sender: TObject);
 
     procedure LimpaCampos;
@@ -48,6 +49,11 @@ implementation
 procedure Tf_login.btnFecharClick(Sender: TObject);
 begin
   Application.Terminate;
+end;
+
+procedure Tf_login.btnLoginClick(Sender: TObject);
+begin
+
 end;
 
 procedure Tf_login.btnResetClick(Sender: TObject);
