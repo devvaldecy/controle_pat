@@ -43,9 +43,9 @@
         <ComponentName Value="DM"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
-        <TopLine Value="5"/>
-        <CursorPos X="67" Y="8"/>
-        <UsageCount Value="182"/>
+        <TopLine Value="16"/>
+        <CursorPos X="5" Y="40"/>
+        <UsageCount Value="185"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -57,9 +57,9 @@
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="30"/>
-        <CursorPos X="3" Y="56"/>
-        <UsageCount Value="27"/>
+        <TopLine Value="40"/>
+        <CursorPos X="3" Y="51"/>
+        <UsageCount Value="30"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -85,7 +85,7 @@
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="6">
+    <JumpHistory HistoryIndex="7">
       <Position>
         <Filename Value="uprincipal.pas"/>
         <Caret Line="43" Column="32" TopLine="38"/>
@@ -113,6 +113,10 @@
       <Position>
         <Filename Value="ulogin.pas"/>
         <Caret Line="61" Column="3" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="ulogin.pas"/>
+        <Caret Line="56" Column="3" TopLine="40"/>
       </Position>
     </JumpHistory>
     <RunParams>

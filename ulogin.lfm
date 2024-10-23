@@ -98,7 +98,9 @@ object f_login: Tf_login
         Height = 23
         Top = 189
         Width = 168
+        EchoMode = emPassword
         MaxLength = 6
+        PasswordChar = '#'
         TabOrder = 1
       end
       object Shape1: TShape

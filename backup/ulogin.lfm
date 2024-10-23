@@ -113,6 +113,7 @@ object f_login: Tf_login
         Top = 226
         Width = 128
         Caption = '&Login'
+        OnClick = btnLoginClick
         TabOrder = 2
       end
       object btnReset: TBitBtn
