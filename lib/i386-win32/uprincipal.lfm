@@ -1,33 +1,32 @@
 object f_principal: Tf_principal
   Left = -8
-  Height = 827
+  Height = 866
   Top = -8
-  Width = 1402
+  Width = 1418
   Caption = 'PATRIMONIO - Controle de bens VERSÃO.: 1.0.0.0'
-  ClientHeight = 827
-  ClientWidth = 1402
+  ClientHeight = 843
+  ClientWidth = 1418
   Color = clForm
   Font.CharSet = ANSI_CHARSET
   Font.Color = clBlue
   Font.Pitch = fpVariable
   Font.Quality = fqDraft
-  LCLVersion = '3.4.0.0'
   WindowState = wsMaximized
   object PnlTop: TPanel
     Left = 0
     Height = 80
     Top = 0
-    Width = 1402
+    Width = 1418
     Align = alTop
     BevelOuter = bvLowered
     ClientHeight = 80
-    ClientWidth = 1402
+    ClientWidth = 1418
     Color = clActiveBorder
     ParentBackground = False
     ParentColor = False
     TabOrder = 0
     object BtnSair: TBitBtn
-      Left = 1290
+      Left = 1306
       Height = 78
       Top = 1
       Width = 111
@@ -12110,12 +12109,12 @@ object f_principal: Tf_principal
   end
   object PnlLest: TPanel
     Left = 0
-    Height = 701
+    Height = 740
     Top = 80
     Width = 179
     Align = alLeft
     BevelOuter = bvNone
-    ClientHeight = 701
+    ClientHeight = 740
     ClientWidth = 179
     Color = clWindowFrame
     ParentBackground = False
@@ -13672,8 +13671,8 @@ object f_principal: Tf_principal
   object StatusBar1: TStatusBar
     Left = 0
     Height = 23
-    Top = 781
-    Width = 1402
+    Top = 820
+    Width = 1418
     Panels = <    
       item
         Text = 'Status'
@@ -13702,13 +13701,13 @@ object f_principal: Tf_principal
   end
   object PnlConteiner: TPanel
     Left = 179
-    Height = 701
+    Height = 740
     Top = 80
-    Width = 1223
+    Width = 1239
     Align = alClient
     BevelOuter = bvNone
-    ClientHeight = 701
-    ClientWidth = 1223
+    ClientHeight = 740
+    ClientWidth = 1239
     ParentBackground = False
     TabOrder = 8
     object Image2: TImage

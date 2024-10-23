@@ -4,13 +4,14 @@ object f_principal: Tf_principal
   Top = -8
   Width = 1402
   Caption = 'PATRIMONIO - Controle de bens VERSÃO.: 1.0.0.0'
-  ClientHeight = 804
+  ClientHeight = 827
   ClientWidth = 1402
   Color = clForm
   Font.CharSet = ANSI_CHARSET
   Font.Color = clBlue
   Font.Pitch = fpVariable
   Font.Quality = fqDraft
+  LCLVersion = '3.4.0.0'
   WindowState = wsMaximized
   object PnlTop: TPanel
     Left = 0

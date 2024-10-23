@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, Buttons,
-  ComCtrls, ucadset;
+  ComCtrls, ucadset, ulogin;
 
 type
 

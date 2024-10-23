@@ -20,6 +20,7 @@
         <EditorIndex Value="2"/>
         <TopLine Value="38"/>
         <CursorPos Y="43"/>
+        <ComponentState Value="2"/>
         <UsageCount Value="206"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -43,10 +44,9 @@
         <ComponentName Value="DM"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="16"/>
-        <CursorPos X="5" Y="40"/>
-        <UsageCount Value="185"/>
+        <TopLine Value="9"/>
+        <CursorPos Y="40"/>
+        <UsageCount Value="188"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -56,10 +56,11 @@
         <ComponentName Value="f_login"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="40"/>
-        <CursorPos X="3" Y="56"/>
-        <UsageCount Value="30"/>
+        <TopLine Value="46"/>
+        <CursorPos X="3" Y="57"/>
+        <UsageCount Value="33"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -68,24 +69,24 @@
         <UnitName Value="JvDBControls"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="211"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="5"/>
       </Unit>
       <Unit>
         <Filename Value="..\..\Downloads\Lazarus\Aula_02\uprincipal.lfm"/>
         <HasResources Value="True"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="13"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="5"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
         <Filename Value="udm.lfm"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="32"/>
+        <UsageCount Value="31"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="6">
+    <JumpHistory HistoryIndex="15">
       <Position>
         <Filename Value="uprincipal.pas"/>
         <Caret Line="43" Column="32" TopLine="38"/>
@@ -113,6 +114,42 @@
       <Position>
         <Filename Value="ulogin.pas"/>
         <Caret Line="61" Column="3" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="ulogin.pas"/>
+        <Caret Line="56" Column="3" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="ulogin.pas"/>
+        <Caret Line="51" Column="3" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="ulogin.pas"/>
+        <Caret Line="52" Column="3" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="ulogin.pas"/>
+        <Caret Line="53" Column="3" TopLine="42"/>
+      </Position>
+      <Position>
+        <Filename Value="ulogin.pas"/>
+        <Caret Line="54" Column="3" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="ulogin.pas"/>
+        <Caret Line="55" Column="3" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="ulogin.pas"/>
+        <Caret Line="56" Column="3" TopLine="45"/>
+      </Position>
+      <Position>
+        <Filename Value="ulogin.pas"/>
+        <Caret Line="57" Column="3" TopLine="46"/>
+      </Position>
+      <Position>
+        <Filename Value="ulogin.pas"/>
+        <Caret Line="56" Column="3" TopLine="45"/>
       </Position>
     </JumpHistory>
     <RunParams>
