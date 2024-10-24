@@ -34,6 +34,7 @@ type
     procedure btnFecharClick(Sender: TObject);
     procedure btnLoginClick(Sender: TObject);
     procedure btnResetClick(Sender: TObject);
+    procedure imgLogoClick(Sender: TObject);
 
     procedure LimpaCampos;
 
@@ -65,6 +66,11 @@ end;
 procedure Tf_login.btnResetClick(Sender: TObject);
 begin
   LimpaCampos;
+end;
+
+procedure Tf_login.imgLogoClick(Sender: TObject);
+begin
+
 end;
 
 procedure Tf_login.LimpaCampos;

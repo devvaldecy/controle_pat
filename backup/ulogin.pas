@@ -23,15 +23,18 @@ type
     Label3: TLabel;
     Label4: TLabel;
     Label5: TLabel;
+    Label6: TLabel;
     Panel1: TPanel;
     pnlCentro: TPanel;
     pnlLest: TPanel;
     Shape1: TShape;
     btnFechar: TSpeedButton;
     Shape2: TShape;
+    Shape3: TShape;
     procedure btnFecharClick(Sender: TObject);
     procedure btnLoginClick(Sender: TObject);
     procedure btnResetClick(Sender: TObject);
+    procedure imgLogoClick(Sender: TObject);
 
     procedure LimpaCampos;
 
@@ -63,6 +66,11 @@ end;
 procedure Tf_login.btnResetClick(Sender: TObject);
 begin
   LimpaCampos;
+end;
+
+procedure Tf_login.imgLogoClick(Sender: TObject);
+begin
+
 end;
 
 procedure Tf_login.LimpaCampos;

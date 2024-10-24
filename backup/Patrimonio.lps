@@ -17,13 +17,10 @@
         <ComponentName Value="f_principal"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="38"/>
         <CursorPos Y="43"/>
-        <ComponentState Value="2"/>
         <UsageCount Value="206"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="ucadset.pas"/>
@@ -31,12 +28,10 @@
         <ComponentName Value="f_cadastrossetor"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="226"/>
         <CursorPos X="25" Y="245"/>
         <UsageCount Value="201"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="udm.pas"/>
@@ -44,11 +39,10 @@
         <ComponentName Value="DM"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="9"/>
         <CursorPos Y="40"/>
-        <UsageCount Value="188"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
+        <UsageCount Value="189"/>
       </Unit>
       <Unit>
         <Filename Value="ulogin.pas"/>
@@ -57,10 +51,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="46"/>
-        <CursorPos X="3" Y="57"/>
-        <UsageCount Value="33"/>
+        <TopLine Value="53"/>
+        <CursorPos X="8" Y="65"/>
+        <UsageCount Value="34"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -86,70 +79,10 @@
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="15">
-      <Position>
-        <Filename Value="uprincipal.pas"/>
-        <Caret Line="43" Column="32" TopLine="38"/>
-      </Position>
+    <JumpHistory>
       <Position>
         <Filename Value="ulogin.pas"/>
-        <Caret Line="8" Column="76"/>
-      </Position>
-      <Position>
-        <Filename Value="ulogin.pas"/>
-        <Caret Line="9" Column="10"/>
-      </Position>
-      <Position>
-        <Filename Value="ulogin.pas"/>
-        <Caret Line="30" Column="27" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="ulogin.pas"/>
-        <Caret Line="62" Column="22" TopLine="31"/>
-      </Position>
-      <Position>
-        <Filename Value="ulogin.pas"/>
-        <Caret Line="55" Column="15" TopLine="28"/>
-      </Position>
-      <Position>
-        <Filename Value="ulogin.pas"/>
-        <Caret Line="61" Column="3" TopLine="30"/>
-      </Position>
-      <Position>
-        <Filename Value="ulogin.pas"/>
-        <Caret Line="56" Column="3" TopLine="40"/>
-      </Position>
-      <Position>
-        <Filename Value="ulogin.pas"/>
-        <Caret Line="51" Column="3" TopLine="40"/>
-      </Position>
-      <Position>
-        <Filename Value="ulogin.pas"/>
-        <Caret Line="52" Column="3" TopLine="41"/>
-      </Position>
-      <Position>
-        <Filename Value="ulogin.pas"/>
-        <Caret Line="53" Column="3" TopLine="42"/>
-      </Position>
-      <Position>
-        <Filename Value="ulogin.pas"/>
-        <Caret Line="54" Column="3" TopLine="43"/>
-      </Position>
-      <Position>
-        <Filename Value="ulogin.pas"/>
-        <Caret Line="55" Column="3" TopLine="44"/>
-      </Position>
-      <Position>
-        <Filename Value="ulogin.pas"/>
-        <Caret Line="56" Column="3" TopLine="45"/>
-      </Position>
-      <Position>
-        <Filename Value="ulogin.pas"/>
-        <Caret Line="57" Column="3" TopLine="46"/>
-      </Position>
-      <Position>
-        <Filename Value="ulogin.pas"/>
-        <Caret Line="56" Column="3" TopLine="45"/>
+        <Caret Line="58" Column="3" TopLine="29"/>
       </Position>
     </JumpHistory>
     <RunParams>
