@@ -1582,9 +1582,9 @@ object f_login: Tf_login
         TabOrder = 3
       end
       object btnFechar: TSpeedButton
-        Left = 329
+        Left = 331
         Height = 22
-        Top = 6
+        Top = 4
         Width = 23
         Glyph.Data = {
           36090000424D3609000000000000360000002800000018000000180000000100
@@ -1665,9 +1665,9 @@ object f_login: Tf_login
         OnClick = btnFecharClick
       end
       object Shape2: TShape
-        Left = 3
+        Left = 4
         Height = 2
-        Top = 36
+        Top = 33
         Width = 352
       end
       object Label3: TLabel
@@ -1685,21 +1685,21 @@ object f_login: Tf_login
         ParentFont = False
       end
       object Label4: TLabel
-        Left = 40
+        Left = 36
         Height = 15
-        Top = 335
+        Top = 336
         Width = 153
         Caption = 'Todos direitos são reservados'
       end
       object Label5: TLabel
-        Left = 200
+        Left = 196
         Height = 15
-        Top = 335
+        Top = 336
         Width = 137
         Caption = '© Valdecy Infor softhouse'
       end
       object Shape3: TShape
-        Left = 3
+        Left = 4
         Height = 2
         Top = 324
         Width = 352

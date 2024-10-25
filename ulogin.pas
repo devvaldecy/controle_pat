@@ -60,7 +60,9 @@ end;
 
 procedure Tf_login.btnLoginClick(Sender: TObject);
 begin
-
+  if (edtUsuario.Text = '')and (edtSenha.Text = '')  then
+  ShowMessage('Campos vazios não pode ficar...');
+  edtUsuario.SetFocus;
 end;
 
 procedure Tf_login.btnResetClick(Sender: TObject);
