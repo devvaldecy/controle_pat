@@ -34,6 +34,7 @@ type
     procedure btnFecharClick(Sender: TObject);
     procedure btnLoginClick(Sender: TObject);
     procedure btnResetClick(Sender: TObject);
+    procedure FormKeyPress(Sender: TObject; var Key: char);
     procedure imgLogoClick(Sender: TObject);
 
     procedure LimpaCampos;
@@ -68,6 +69,14 @@ end;
 procedure Tf_login.btnResetClick(Sender: TObject);
 begin
   LimpaCampos;
+end;
+
+procedure Tf_login.FormKeyPress(Sender: TObject; var Key: char);
+begin
+    if key=#13 then begin
+    SelectNext(ActiveControl as TWinControl,True,True);
+    key:=#0;
+end;
 end;
 
 procedure Tf_login.imgLogoClick(Sender: TObject);

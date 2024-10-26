@@ -242,6 +242,7 @@ begin
       ExecSQL;
       ShowMessage('Registro Alterado com sucesso....');
       limparedits;
+      EdtCodigo.SetFocus;
    end;
 end;
 
