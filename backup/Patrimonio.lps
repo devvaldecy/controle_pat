@@ -17,10 +17,12 @@
         <ComponentName Value="f_principal"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
+        <EditorIndex Value="1"/>
         <TopLine Value="38"/>
         <CursorPos Y="43"/>
         <UsageCount Value="206"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="ucadset.pas"/>
@@ -28,8 +30,8 @@
         <ComponentName Value="f_cadastrossetor"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="2"/>
-        <TopLine Value="225"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="224"/>
         <CursorPos Y="82"/>
         <UsageCount Value="201"/>
         <Loaded Value="True"/>
@@ -41,9 +43,9 @@
         <ComponentName Value="DM"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="7"/>
-        <CursorPos Y="40"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="17"/>
+        <CursorPos Y="42"/>
         <UsageCount Value="237"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -55,20 +57,20 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="62"/>
-        <CursorPos X="17" Y="78"/>
-        <UsageCount Value="88"/>
+        <TopLine Value="99"/>
+        <CursorPos X="39" Y="108"/>
+        <UsageCount Value="98"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="udm.lfm"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="24"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="4">
+    <JumpHistory HistoryIndex="16">
       <Position>
         <Filename Value="ulogin.pas"/>
         <Caret Line="58" Column="3" TopLine="29"/>
@@ -88,6 +90,54 @@
       <Position>
         <Filename Value="ulogin.pas"/>
         <Caret Line="66" Column="22" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="ulogin.pas"/>
+        <Caret Line="78" Column="17" TopLine="62"/>
+      </Position>
+      <Position>
+        <Filename Value="udm.pas"/>
+        <Caret Line="40" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="udm.pas"/>
+        <Caret Line="41" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="ulogin.pas"/>
+        <Caret Line="68" Column="15" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="ulogin.pas"/>
+        <Caret Line="88" Column="27" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="ulogin.pas"/>
+        <Caret Line="77" Column="2" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="ulogin.pas"/>
+        <Caret Line="53" Column="12" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="ulogin.pas"/>
+        <Caret Line="83" Column="17" TopLine="65"/>
+      </Position>
+      <Position>
+        <Filename Value="ulogin.pas"/>
+        <Caret Line="105" Column="50" TopLine="102"/>
+      </Position>
+      <Position>
+        <Filename Value="ulogin.pas"/>
+        <Caret Line="106" Column="50" TopLine="103"/>
+      </Position>
+      <Position>
+        <Filename Value="ulogin.pas"/>
+        <Caret Line="107" Column="50" TopLine="104"/>
+      </Position>
+      <Position>
+        <Filename Value="ulogin.pas"/>
+        <Caret Line="106" Column="50" TopLine="103"/>
       </Position>
     </JumpHistory>
     <RunParams>

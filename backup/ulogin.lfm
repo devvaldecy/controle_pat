@@ -1528,14 +1528,14 @@ object f_login: Tf_login
       ClientWidth = 359
       TabOrder = 1
       object Label1: TLabel
-        Left = 152
+        Left = 120
         Height = 15
         Top = 107
         Width = 40
         Caption = 'Usuario'
       end
       object edtUsuario: TEdit
-        Left = 99
+        Left = 67
         Height = 23
         Top = 126
         Width = 168
@@ -1543,21 +1543,22 @@ object f_login: Tf_login
         TabOrder = 0
       end
       object Label2: TLabel
-        Left = 152
+        Left = 120
         Height = 15
         Top = 154
         Width = 40
         Caption = 'Usuario'
       end
       object edtSenha: TEdit
-        Left = 99
+        Left = 67
         Height = 23
         Top = 176
         Width = 168
         EchoMode = emPassword
-        MaxLength = 6
+        MaxLength = 7
         PasswordChar = '#'
         TabOrder = 1
+        OnChange = edtSenhaChange
       end
       object Shape1: TShape
         Left = 0
@@ -1842,15 +1843,15 @@ object f_login: Tf_login
         Left = 36
         Height = 15
         Top = 336
-        Width = 153
+        Width = 154
         Caption = 'Todos direitos são reservados'
       end
       object Label5: TLabel
         Left = 196
         Height = 15
         Top = 336
-        Width = 137
-        Caption = '© Valdecy Infor softhouse'
+        Width = 134
+        Caption = '©Valdecy Infor softhouse'
       end
       object Shape3: TShape
         Left = 4
@@ -1871,6 +1872,19 @@ object f_login: Tf_login
         Font.Quality = fqDraft
         Font.Style = [fsBold]
         ParentFont = False
+      end
+      object Label7: TLabel
+        Left = 256
+        Height = 15
+        Top = 154
+        Width = 54
+        Caption = 'Nº Digitos'
+      end
+      object lbLdigitos: TLabel
+        Left = 256
+        Height = 1
+        Top = 182
+        Width = 1
       end
     end
   end

@@ -24,6 +24,8 @@ type
     Label4: TLabel;
     Label5: TLabel;
     Label6: TLabel;
+    Label7: TLabel;
+    lbLdigitos: TLabel;
     Panel1: TPanel;
     pnlCentro: TPanel;
     pnlLest: TPanel;
@@ -34,6 +36,7 @@ type
     procedure btnFecharClick(Sender: TObject);
     procedure btnLoginClick(Sender: TObject);
     procedure btnResetClick(Sender: TObject);
+    procedure edtSenhaChange(Sender: TObject);
     procedure FormKeyPress(Sender: TObject; var Key: char);
     procedure imgLogoClick(Sender: TObject);
 
@@ -50,6 +53,8 @@ var
 
 implementation
 
+uses udm, uprincipal;
+
 {$R *.lfm}
 
 { Tf_login }
@@ -61,14 +66,46 @@ end;
 
 procedure Tf_login.btnLoginClick(Sender: TObject);
 begin
-  if (edtUsuario.Text = '')and (edtSenha.Text = '')  then
-  ShowMessage('Campos vazios não pode ficar...');
-  edtUsuario.SetFocus;
+  if ((edtUsuario.Text ='')and(edtSenha.Text ='')) then
+    begin
+    ShowMessage('OPS! os campos estão vázios');
+
+    edtUsuario.SetFocus;
+     Abort;
+    end;
+    DM.qrUSER.Close;
+    DM.qrUSER.SQL.Clear; // Adicionei esta linha para limpar o SQL
+    DM.qrUSER.SQL.Add('Select * from usuarios');
+    DM.qrUSER.SQL.Add(' WHERE login = ' + QuotedStr(edtUsuario.Text) + ' AND senha = ' + QuotedStr(edtSenha.Text));
+    DM.qrUSER.Open;
+    //frmprincipal.LblUser.Caption := 'Usuário logado no sistema: '+ qrUSER.FieldByName('login').AsString;
+    if DM.qrUSER.IsEmpty then
+    begin
+    ShowMessage('Usuário ou senha inválida(o)');
+    LimpaCampos;
+    edtUsuario.SetFocus;
+    Abort;
+    end;
+  begin
+   f_principal := Tf_principal.Create(Self);
+  try
+    f_principal.ShowModal;
+  finally
+    FreeAndNil(f_principal);
+  end;
+  end;
 end;
 
 procedure Tf_login.btnResetClick(Sender: TObject);
 begin
   LimpaCampos;
+end;
+
+procedure Tf_login.edtSenhaChange(Sender: TObject);
+begin
+    lbLdigitos.Caption := IntToStr(Length(EdtSenha.Text));
+    if Length(edtSenha.Text) = 7 then
+    ShowMessage('A senha é de apenas 7 digitos');
 end;
 
 procedure Tf_login.FormKeyPress(Sender: TObject; var Key: char);
