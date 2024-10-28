@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, Buttons,
-  ComCtrls, ucadset, ulogin;
+  ComCtrls, StdCtrls, ucadset, ulogin;
 
 type
 
@@ -23,6 +23,11 @@ type
     BtnConfiguracoes: TBitBtn;
     Image1: TImage;
     Image2: TImage;
+    ImgLogo: TImage;
+    Label1: TLabel;
+    LblUser: TLabel;
+    Panel1: TPanel;
+    pnldireita: TPanel;
     PnlConteiner: TPanel;
     PnlLogo: TPanel;
     PnlLest: TPanel;

@@ -1526,6 +1526,12 @@ object f_login: Tf_login
       BevelOuter = bvNone
       ClientHeight = 356
       ClientWidth = 359
+      Font.CharSet = ANSI_CHARSET
+      Font.Name = 'Segoe UI Semibold'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentFont = False
       TabOrder = 1
       object Label1: TLabel
         Left = 120
@@ -1826,11 +1832,11 @@ object f_login: Tf_login
         Width = 352
       end
       object Label3: TLabel
-        Left = 96
+        Left = 88
         Height = 25
         Top = 48
-        Width = 177
-        Caption = 'Controle Patrimônial'
+        Width = 199
+        Caption = 'Controle de Patrimônio'
         Font.CharSet = ANSI_CHARSET
         Font.Height = -19
         Font.Name = 'Segoe UI Semibold'
@@ -1850,7 +1856,7 @@ object f_login: Tf_login
         Left = 196
         Height = 15
         Top = 336
-        Width = 134
+        Width = 136
         Caption = '©Valdecy Infor softhouse'
       end
       object Shape3: TShape
@@ -1877,7 +1883,7 @@ object f_login: Tf_login
         Left = 256
         Height = 15
         Top = 154
-        Width = 54
+        Width = 55
         Caption = 'Nº Digitos'
       end
       object lbLdigitos: TLabel

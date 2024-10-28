@@ -1832,11 +1832,11 @@ object f_login: Tf_login
         Width = 352
       end
       object Label3: TLabel
-        Left = 96
+        Left = 88
         Height = 25
         Top = 48
-        Width = 177
-        Caption = 'Controle Patrimônial'
+        Width = 199
+        Caption = 'Controle de Patrimônio'
         Font.CharSet = ANSI_CHARSET
         Font.Height = -19
         Font.Name = 'Segoe UI Semibold'
