@@ -13,6 +13,7 @@ type
 
   TDM = class(TDataModule)
     Conexao: TZConnection;
+    DSuser: TDataSource;
     DSsetor: TDataSource;
     DsConsultasetor: TDataSource;
     zQconsultasetor: TZQuery;
@@ -23,6 +24,7 @@ type
     zQsetorEMAIL: TZRawStringField;
     zQsetorID: TZIntegerField;
     zQsetorNOME: TZRawStringField;
+    qrUSER: TZQuery;
   private
 
   public

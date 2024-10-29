@@ -20,7 +20,6 @@
         <EditorIndex Value="1"/>
         <TopLine Value="48"/>
         <CursorPos Y="48"/>
-        <ComponentState Value="2"/>
         <UsageCount Value="206"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -31,8 +30,8 @@
         <ComponentName Value="f_cadastrossetor"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="3"/>
-        <TopLine Value="224"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="70"/>
         <CursorPos Y="82"/>
         <UsageCount Value="201"/>
         <Loaded Value="True"/>
@@ -45,7 +44,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="17"/>
+        <TopLine Value="9"/>
         <CursorPos Y="42"/>
         <UsageCount Value="237"/>
         <Loaded Value="True"/>
@@ -57,10 +56,9 @@
         <ComponentName Value="f_login"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="75"/>
-        <CursorPos X="51" Y="81"/>
-        <UsageCount Value="119"/>
+        <TopLine Value="79"/>
+        <CursorPos X="3" Y="101"/>
+        <UsageCount Value="124"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -70,8 +68,21 @@
         <UsageCount Value="22"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
+      <Unit>
+        <Filename Value="u_cadpadrao.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="f_cadpadrao"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="12"/>
+        <CursorPos X="28" Y="28"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="29">
+    <JumpHistory HistoryIndex="28">
       <Position>
         <Filename Value="ulogin.pas"/>
         <Caret Line="58" Column="3" TopLine="29"/>
@@ -158,10 +169,6 @@
       </Position>
       <Position>
         <Filename Value="uprincipal.pas"/>
-        <Caret Line="45" TopLine="47"/>
-      </Position>
-      <Position>
-        <Filename Value="uprincipal.pas"/>
         <Caret Line="46" TopLine="46"/>
       </Position>
       <Position>
@@ -190,7 +197,7 @@
       </Position>
       <Position>
         <Filename Value="ulogin.pas"/>
-        <Caret Line="81" Column="36" TopLine="69"/>
+        <Caret Line="81" Column="59" TopLine="66"/>
       </Position>
     </JumpHistory>
     <RunParams>
