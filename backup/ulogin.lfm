@@ -1,15 +1,16 @@
 object f_login: Tf_login
-  Left = 297
+  Left = 298
   Height = 356
-  Top = 250
+  Top = 251
   Width = 743
   BorderStyle = bsNone
   Caption = 'Login do Sistema ...'
   ClientHeight = 356
   ClientWidth = 743
   KeyPreview = True
-  OnKeyPress = FormKeyPress
   Position = poMainFormCenter
+  LCLVersion = '4.2.0.0'
+  OnKeyPress = FormKeyPress
   object pnlCentro: TPanel
     Left = 0
     Height = 356
@@ -36,7 +37,6 @@ object f_login: Tf_login
         Top = 0
         Width = 390
         Align = alClient
-        OnClick = imgLogoClick
         Picture.Data = {
           0A544A706567496D61676569B80000FFD8FFE000104A46494600010101006000
           600000FFDB004300020101020101020202020202020203050303030303060404
@@ -1515,6 +1515,7 @@ object f_login: Tf_login
           F175DDD670C2307B2D659A2939B65C68416C874B2B4ED976663EA4D300C52D15
           26C145145200A28A2800A28A2800A28A2800A28A2803FFD9
         }
+        OnClick = imgLogoClick
       end
     end
     object Panel1: TPanel
@@ -1654,8 +1655,8 @@ object f_login: Tf_login
           0000000000000000000000000000000000000000000000000000000000000000
           0000000000000000000000000000000000000000000000000000
         }
-        OnClick = btnLoginClick
         TabOrder = 2
+        OnClick = btnLoginClick
       end
       object btnReset: TBitBtn
         Left = 187
@@ -1739,8 +1740,8 @@ object f_login: Tf_login
           0000000000000000000000000000000000000000000000000000000000000000
           0000000000000000000000000000000000000000000000000000
         }
-        OnClick = btnResetClick
         TabOrder = 3
+        OnClick = btnResetClick
       end
       object btnFechar: TSpeedButton
         Left = 331
@@ -1848,14 +1849,14 @@ object f_login: Tf_login
       object Label4: TLabel
         Left = 36
         Height = 15
-        Top = 336
+        Top = 334
         Width = 154
         Caption = 'Todos direitos são reservados'
       end
       object Label5: TLabel
         Left = 196
         Height = 15
-        Top = 336
+        Top = 334
         Width = 136
         Caption = '©Valdecy Infor softhouse'
       end
@@ -1868,7 +1869,7 @@ object f_login: Tf_login
       object Label6: TLabel
         Left = 120
         Height = 25
-        Top = 288
+        Top = 276
         Width = 118
         Caption = 'Versão 1.0.0.0'
         Font.CharSet = ANSI_CHARSET

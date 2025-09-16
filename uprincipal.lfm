@@ -1,26 +1,27 @@
 object f_principal: Tf_principal
   Left = -8
-  Height = 788
+  Height = 745
   Top = -8
-  Width = 1386
+  Width = 1366
   Caption = 'PATRIMONIO - Controle de bens VERSÃO.: 1.0.0.0'
-  ClientHeight = 749
-  ClientWidth = 1370
+  ClientHeight = 745
+  ClientWidth = 1366
   Color = clForm
   Font.CharSet = ANSI_CHARSET
   Font.Color = clBlue
   Font.Pitch = fpVariable
   Font.Quality = fqDraft
+  LCLVersion = '4.2.0.0'
   WindowState = wsMaximized
   object PnlTop: TPanel
     Left = 0
     Height = 80
     Top = 0
-    Width = 1370
+    Width = 1366
     Align = alTop
     BevelOuter = bvLowered
     ClientHeight = 80
-    ClientWidth = 1370
+    ClientWidth = 1366
     Color = clActiveBorder
     ParentBackground = False
     ParentColor = False
@@ -11886,7 +11887,7 @@ object f_principal: Tf_principal
       end
     end
     object pnldireita: TPanel
-      Left = 1152
+      Left = 1148
       Height = 78
       Top = 1
       Width = 217
@@ -13240,12 +13241,12 @@ object f_principal: Tf_principal
   end
   object PnlLest: TPanel
     Left = 0
-    Height = 646
+    Height = 642
     Top = 80
     Width = 179
     Align = alLeft
     BevelOuter = bvNone
-    ClientHeight = 646
+    ClientHeight = 642
     ClientWidth = 179
     Color = clWindowFrame
     ParentBackground = False
@@ -13468,10 +13469,10 @@ object f_principal: Tf_principal
         0000000000000000000000000000000000000000000000000000000000000000
         0000000000000000000000000000000000000000000000000000
       }
-      OnClick = BntSetorClick
       ParentBidiMode = False
       ParentFont = False
       TabOrder = 0
+      OnClick = BntSetorClick
     end
     object BtnTransferir: TBitBtn
       Left = 2
@@ -13784,7 +13785,7 @@ object f_principal: Tf_principal
     object BtnSair: TBitBtn
       Left = 0
       Height = 43
-      Top = 603
+      Top = 599
       Width = 179
       Align = alBottom
       Caption = 'SAIR'
@@ -13998,9 +13999,9 @@ object f_principal: Tf_principal
         0000000000000000000000000000000000000000000000000000000000000000
         0000000000000000000000000000000000000000000000000000
       }
-      OnClick = BtnSairClick
       ParentFont = False
       TabOrder = 2
+      OnClick = BtnSairClick
     end
   end
   object BntEmpresa: TBitBtn
@@ -15023,8 +15024,8 @@ object f_principal: Tf_principal
   object StatusBar1: TStatusBar
     Left = 0
     Height = 23
-    Top = 726
-    Width = 1370
+    Top = 722
+    Width = 1366
     Panels = <    
       item
         Text = 'Status'
@@ -15053,13 +15054,13 @@ object f_principal: Tf_principal
   end
   object PnlConteiner: TPanel
     Left = 179
-    Height = 646
+    Height = 642
     Top = 80
-    Width = 1191
+    Width = 1187
     Align = alClient
     BevelOuter = bvNone
-    ClientHeight = 646
-    ClientWidth = 1191
+    ClientHeight = 642
+    ClientWidth = 1187
     ParentBackground = False
     TabOrder = 8
     object Image2: TImage

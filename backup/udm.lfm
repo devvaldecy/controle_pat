@@ -1,9 +1,9 @@
 object DM: TDM
   OldCreateOrder = False
-  Height = 412
-  HorizontalOffset = 296
-  VerticalOffset = 31
-  Width = 484
+  Height = 333
+  HorizontalOffset = 348
+  VerticalOffset = 36
+  Width = 441
   object Conexao: TZConnection
     ControlsCodePage = cCP_UTF8
     Properties.Strings = (
@@ -14,11 +14,11 @@ object DM: TDM
     DisableSavepoints = False
     HostName = '127.0.0.1'
     Port = 3050
-    Database = 'C:\Users\AUDIO\Documents\github\Banco\BD.FDB'
+    Database = 'C:\Users\Admin\Documents\Projetos\controle_pat\Banco\BD.FDB'
     User = 'SYSDBA'
     Password = 'masterkey'
     Protocol = 'firebird'
-    LibraryLocation = 'C:\Users\AUDIO\Documents\github\Dll\fbclient.dll'
+    LibraryLocation = 'C:\Users\Admin\Documents\Projetos\controle_pat\Dll\fbclient.dll'
     Left = 40
     Top = 16
   end

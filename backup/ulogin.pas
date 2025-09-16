@@ -78,7 +78,7 @@ begin
     DM.qrUSER.SQL.Add('Select * from usuarios');
     DM.qrUSER.SQL.Add(' WHERE login = ' + QuotedStr(edtUsuario.Text) + ' AND senha = ' + QuotedStr(edtSenha.Text));
     DM.qrUSER.Open;
-    f_principal.LblUser.Caption := edtUsuario.Text;
+    f_principal.LblUser.Caption := f_login.edtUsuario.Text;
     if DM.qrUSER.IsEmpty then
     begin
     ShowMessage('Usuário ou senha inválida(o)');

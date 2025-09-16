@@ -1,17 +1,18 @@
 object f_cadastrossetor: Tf_cadastrossetor
-  Left = 296
+  Left = 297
   Height = 331
-  Top = 31
+  Top = 32
   Width = 596
   BorderIcons = [biSystemMenu, biMinimize]
   Caption = 'Cadastro de Setores'
   ClientHeight = 331
   ClientWidth = 596
   KeyPreview = True
+  Position = poDesktopCenter
+  LCLVersion = '4.2.0.0'
   OnClose = FormClose
   OnCreate = FormCreate
   OnKeyPress = FormKeyPress
-  Position = poDesktopCenter
   object PnlTop: TPanel
     Left = 0
     Height = 50
@@ -313,9 +314,9 @@ object f_cadastrossetor: Tf_cadastrossetor
         0000000000000000000000000000000000000000000000000000000000000000
         0000000000000000000000000000000000000000000000000000
       }
-      OnClick = BtnNovoClick
       ParentFont = False
       TabOrder = 0
+      OnClick = BtnNovoClick
     end
     object BtnSalvar: TBitBtn
       Left = 0
@@ -487,9 +488,9 @@ object f_cadastrossetor: Tf_cadastrossetor
         E777FFFAE977FFFAE977FFFAE777FFFAE777FFFAE577FFFAE377FFFAE36FFFF5
         E21B00000000000000000000000000000000000000000000000000000000
       }
-      OnClick = BtnSalvarClick
       ParentFont = False
       TabOrder = 1
+      OnClick = BtnSalvarClick
     end
     object BtnAlterar: TBitBtn
       Left = 0
@@ -661,9 +662,9 @@ object f_cadastrossetor: Tf_cadastrossetor
         0000000000000000000000000000000000000000000000000000000000000000
         000000000000000000000000000000000000000000000000000000000000
       }
-      OnClick = BtnAlterarClick
       ParentFont = False
       TabOrder = 2
+      OnClick = BtnAlterarClick
     end
     object BtnDeletar: TBitBtn
       Left = 0
@@ -927,9 +928,9 @@ object f_cadastrossetor: Tf_cadastrossetor
         0000000000000000000000000000000000000000000000000000000000000000
         00000000000000000000
       }
-      OnClick = BtnCancelarClick
       ParentFont = False
       TabOrder = 4
+      OnClick = BtnCancelarClick
     end
     object BitBtn6: TBitBtn
       Left = 0
@@ -1059,9 +1060,9 @@ object f_cadastrossetor: Tf_cadastrossetor
         0000000000000000000000000000000000000000000000000000000000000000
         00000000000000000000
       }
-      OnClick = BitBtn6Click
       ParentFont = False
       TabOrder = 5
+      OnClick = BitBtn6Click
     end
   end
   object PgControle: TPageControl
@@ -1167,7 +1168,7 @@ object f_cadastrossetor: Tf_cadastrossetor
         Left = 152
         Height = 15
         Top = 8
-        Width = 251
+        Width = 252
         Caption = 'Digite os dados a serem listados e tecle ENTER...'
         ParentColor = False
       end
@@ -1378,9 +1379,9 @@ object f_cadastrossetor: Tf_cadastrossetor
       0000000000000000000000000000000000000000000000000000000000000000
       000000000000000000000000000000000000000000000000000000000000
     }
-    OnClick = BtnPesquisarClick
     ParentFont = False
     TabOrder = 3
+    OnClick = BtnPesquisarClick
   end
   object PopupMenu1: TPopupMenu
     Left = 392
