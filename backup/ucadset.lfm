@@ -1,7 +1,7 @@
 object f_cadastrossetor: Tf_cadastrossetor
-  Left = 348
+  Left = 58
   Height = 331
-  Top = 36
+  Top = 23
   Width = 596
   BorderIcons = [biSystemMenu, biMinimize]
   Caption = 'Cadastro de Setores'

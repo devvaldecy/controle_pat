@@ -1,7 +1,7 @@
 object f_cadpadrao: Tf_cadpadrao
-  Left = 429
+  Left = 715
   Height = 330
-  Top = 211
+  Top = 171
   Width = 589
   Caption = 'Formulário Padrão'
   KeyPreview = True

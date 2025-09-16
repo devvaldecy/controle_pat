@@ -1,7 +1,7 @@
 object f_cadastrossetor: Tf_cadastrossetor
-  Left = 297
+  Left = 58
   Height = 331
-  Top = 32
+  Top = 23
   Width = 596
   BorderIcons = [biSystemMenu, biMinimize]
   Caption = 'Cadastro de Setores'
@@ -1070,10 +1070,10 @@ object f_cadastrossetor: Tf_cadastrossetor
     Height = 281
     Top = 50
     Width = 474
-    ActivePage = TabConsultar
+    ActivePage = TabLancar
     Align = alClient
     PopupMenu = PopupMenu1
-    TabIndex = 1
+    TabIndex = 0
     TabOrder = 2
     object TabLancar: TTabSheet
       Caption = '&Lançar Dados'

@@ -5,13 +5,18 @@ unit u_cadpadrao;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, ComCtrls,
+  Buttons, Menus;
 
 type
 
   { Tf_cadpadrao }
 
   Tf_cadpadrao = class(TForm)
+    EdtDescricao: TEdit;
+    Label1: TLabel;
+    LblRegistros: TLabel;
+    PnlTop: TPanel;
     procedure FormKeyPress(Sender: TObject; var Key: char);
   private
 

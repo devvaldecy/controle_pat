@@ -1,11 +1,11 @@
 object f_principal: Tf_principal
   Left = -8
-  Height = 877
+  Height = 745
   Top = -8
-  Width = 1600
+  Width = 1366
   Caption = 'PATRIMONIO - Controle de bens VERSÃO.: 1.0.0.0'
-  ClientHeight = 877
-  ClientWidth = 1600
+  ClientHeight = 745
+  ClientWidth = 1366
   Color = clForm
   Font.CharSet = ANSI_CHARSET
   Font.Color = clBlue
@@ -17,11 +17,11 @@ object f_principal: Tf_principal
     Left = 0
     Height = 80
     Top = 0
-    Width = 1600
+    Width = 1366
     Align = alTop
     BevelOuter = bvLowered
     ClientHeight = 80
-    ClientWidth = 1600
+    ClientWidth = 1366
     Color = clActiveBorder
     ParentBackground = False
     ParentColor = False
@@ -11887,7 +11887,7 @@ object f_principal: Tf_principal
       end
     end
     object pnldireita: TPanel
-      Left = 1382
+      Left = 1148
       Height = 78
       Top = 1
       Width = 217
@@ -13241,12 +13241,12 @@ object f_principal: Tf_principal
   end
   object PnlLest: TPanel
     Left = 0
-    Height = 774
+    Height = 642
     Top = 80
     Width = 179
     Align = alLeft
     BevelOuter = bvNone
-    ClientHeight = 774
+    ClientHeight = 642
     ClientWidth = 179
     Color = clWindowFrame
     ParentBackground = False
@@ -13785,7 +13785,7 @@ object f_principal: Tf_principal
     object BtnSair: TBitBtn
       Left = 0
       Height = 43
-      Top = 731
+      Top = 599
       Width = 179
       Align = alBottom
       Caption = 'SAIR'
@@ -15024,8 +15024,8 @@ object f_principal: Tf_principal
   object StatusBar1: TStatusBar
     Left = 0
     Height = 23
-    Top = 854
-    Width = 1600
+    Top = 722
+    Width = 1366
     Panels = <    
       item
         Text = 'Status'
@@ -15054,13 +15054,13 @@ object f_principal: Tf_principal
   end
   object PnlConteiner: TPanel
     Left = 179
-    Height = 774
+    Height = 642
     Top = 80
-    Width = 1421
+    Width = 1187
     Align = alClient
     BevelOuter = bvNone
-    ClientHeight = 774
-    ClientWidth = 1421
+    ClientHeight = 642
+    ClientWidth = 1187
     ParentBackground = False
     TabOrder = 8
     object Image2: TImage

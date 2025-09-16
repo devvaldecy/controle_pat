@@ -13253,7 +13253,7 @@ object f_principal: Tf_principal
     ParentColor = False
     TabOrder = 1
     object BntSetor: TBitBtn
-      Left = 1
+      Left = 2
       Height = 43
       Top = 0
       Width = 176

@@ -104,7 +104,7 @@ end;
 procedure Tf_login.edtSenhaChange(Sender: TObject);
 begin
     lbLdigitos.Caption := IntToStr(Length(EdtSenha.Text));
-    if Length(edtSenha.Text) = 7 then
+    if Length(edtSenha.Text) = 10 then
     ShowMessage('A senha é de apenas 7 digitos');
 end;
 
