@@ -30,11 +30,10 @@
         <ComponentName Value="f_cadastrossetor"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="123"/>
         <CursorPos X="51" Y="9"/>
         <UsageCount Value="201"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="udm.pas"/>
@@ -57,7 +56,7 @@
         <ResourceBaseClass Value="Form"/>
         <TopLine Value="94"/>
         <CursorPos X="39" Y="127"/>
-        <UsageCount Value="131"/>
+        <UsageCount Value="136"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -70,7 +69,7 @@
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
         <CursorPos X="5" Y="16"/>
-        <UsageCount Value="29"/>
+        <UsageCount Value="34"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>

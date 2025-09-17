@@ -1,11 +1,11 @@
 object f_principal: Tf_principal
   Left = -8
-  Height = 745
+  Height = 877
   Top = -8
-  Width = 1366
+  Width = 1600
   Caption = 'PATRIMONIO - Controle de bens VERSÃO.: 1.0.0.0'
-  ClientHeight = 745
-  ClientWidth = 1366
+  ClientHeight = 877
+  ClientWidth = 1600
   Color = clForm
   Font.CharSet = ANSI_CHARSET
   Font.Color = clBlue
@@ -17,11 +17,11 @@ object f_principal: Tf_principal
     Left = 0
     Height = 80
     Top = 0
-    Width = 1366
+    Width = 1600
     Align = alTop
     BevelOuter = bvLowered
     ClientHeight = 80
-    ClientWidth = 1366
+    ClientWidth = 1600
     Color = clActiveBorder
     ParentBackground = False
     ParentColor = False
@@ -11887,7 +11887,7 @@ object f_principal: Tf_principal
       end
     end
     object pnldireita: TPanel
-      Left = 1148
+      Left = 1382
       Height = 78
       Top = 1
       Width = 217
@@ -13241,12 +13241,12 @@ object f_principal: Tf_principal
   end
   object PnlLest: TPanel
     Left = 0
-    Height = 642
+    Height = 774
     Top = 80
     Width = 179
     Align = alLeft
     BevelOuter = bvNone
-    ClientHeight = 642
+    ClientHeight = 774
     ClientWidth = 179
     Color = clWindowFrame
     ParentBackground = False
@@ -13785,7 +13785,7 @@ object f_principal: Tf_principal
     object BtnSair: TBitBtn
       Left = 0
       Height = 43
-      Top = 599
+      Top = 731
       Width = 179
       Align = alBottom
       Caption = 'SAIR'
@@ -14892,7 +14892,7 @@ object f_principal: Tf_principal
   object BtnConfiguracoes: TBitBtn
     Left = 1
     Height = 43
-    Top = 771
+    Top = 341
     Width = 177
     Caption = 'CONFIGURAÇÕES    '
     Font.CharSet = ANSI_CHARSET
@@ -15024,8 +15024,8 @@ object f_principal: Tf_principal
   object StatusBar1: TStatusBar
     Left = 0
     Height = 23
-    Top = 722
-    Width = 1366
+    Top = 854
+    Width = 1600
     Panels = <    
       item
         Text = 'Status'
@@ -15054,13 +15054,13 @@ object f_principal: Tf_principal
   end
   object PnlConteiner: TPanel
     Left = 179
-    Height = 642
+    Height = 774
     Top = 80
-    Width = 1187
+    Width = 1421
     Align = alClient
     BevelOuter = bvNone
-    ClientHeight = 642
-    ClientWidth = 1187
+    ClientHeight = 774
+    ClientWidth = 1421
     ParentBackground = False
     TabOrder = 8
     object Image2: TImage

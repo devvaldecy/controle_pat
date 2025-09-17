@@ -1,7 +1,7 @@
 object f_cadastrossetor: Tf_cadastrossetor
-  Left = 58
+  Left = 588
   Height = 331
-  Top = 23
+  Top = 227
   Width = 596
   BorderIcons = [biSystemMenu, biMinimize]
   Caption = 'Cadastro de Setores'
@@ -1070,10 +1070,10 @@ object f_cadastrossetor: Tf_cadastrossetor
     Height = 281
     Top = 50
     Width = 474
-    ActivePage = TabLancar
+    ActivePage = TabConsultar
     Align = alClient
     PopupMenu = PopupMenu1
-    TabIndex = 0
+    TabIndex = 1
     TabOrder = 2
     object TabLancar: TTabSheet
       Caption = '&Lançar Dados'
@@ -1201,7 +1201,34 @@ object f_cadastrossetor: Tf_cadastrossetor
         Width = 466
         Align = alBottom
         Color = clWindow
-        Columns = <>
+        Columns = <        
+          item
+            Title.Font.CharSet = ANSI_CHARSET
+            Title.Font.Pitch = fpVariable
+            Title.Font.Quality = fqDraft
+            Title.Font.Style = [fsBold]
+            Title.Caption = 'CÓDIGO'
+            Width = 60
+            FieldName = 'ID'
+          end        
+          item
+            Title.Font.CharSet = ANSI_CHARSET
+            Title.Font.Pitch = fpVariable
+            Title.Font.Quality = fqDraft
+            Title.Font.Style = [fsBold]
+            Title.Caption = 'DESCRIÇÃO'
+            Width = 150
+            FieldName = 'NOME'
+          end        
+          item
+            Title.Font.CharSet = ANSI_CHARSET
+            Title.Font.Pitch = fpVariable
+            Title.Font.Quality = fqDraft
+            Title.Font.Style = [fsBold]
+            Title.Caption = 'E-MAIL'
+            Width = 150
+            FieldName = 'EMAIL'
+          end>
         DataSource = DM.DsConsultasetor
         Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgAlwaysShowSelection, dgCancelOnExit, dgMultiselect]
         TabOrder = 2

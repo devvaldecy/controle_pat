@@ -1,8 +1,8 @@
 object DM: TDM
   OldCreateOrder = False
   Height = 333
-  HorizontalOffset = 348
-  VerticalOffset = 36
+  HorizontalOffset = 349
+  VerticalOffset = 38
   Width = 441
   object Conexao: TZConnection
     ControlsCodePage = cCP_UTF8
