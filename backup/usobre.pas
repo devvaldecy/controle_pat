@@ -10,9 +10,9 @@ uses
 
 type
 
-  { TfrmSobre }
+  { Tf_sobre }
 
-  TfrmSobre = class(TForm)
+  Tf_sobre = class(TForm)
     Image1: TImage;
     Image2: TImage;
     imgLogo: TImage;
@@ -48,20 +48,20 @@ type
   end;
 
 var
-  frmSobre: TfrmSobre;
+  f_sobre: Tf_sobre;
 
 implementation
 
 {$R *.lfm}
 
-{ TfrmSobre }
+{ Tf_sobre }
 
-procedure TfrmSobre.BtnFecharClick(Sender: TObject);
+procedure Tf_sobre.BtnFecharClick(Sender: TObject);
 begin
   Close;
 end;
 
-procedure TfrmSobre.BtnSairClick(Sender: TObject);
+procedure Tf_sobre.BtnSairClick(Sender: TObject);
 begin
   Close;
 end;

@@ -6,13 +6,15 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, Buttons,
-  ComCtrls, StdCtrls, ucadset, ulogin;
+  ComCtrls, StdCtrls, ucadset, usobre, ulogin;
 
 type
 
   { Tf_principal }
 
   Tf_principal = class(TForm)
+    BitBtn1: TBitBtn;
+    BtnSobre: TBitBtn;
     BtnClientes: TBitBtn;
     BntSetor: TBitBtn;
     BntEmpresa: TBitBtn;
@@ -34,6 +36,7 @@ type
     PnlTop: TPanel;
     StatusBar1: TStatusBar;
     Tmtrelogio: TTimer;
+    procedure BtnSobreClick(Sender: TObject);
     procedure BntSetorClick(Sender: TObject);
     procedure BtnSairClick(Sender: TObject);
     procedure TmtrelogioTimer(Sender: TObject);
@@ -55,6 +58,11 @@ implementation
 procedure Tf_principal.BntSetorClick(Sender: TObject);
 begin
   f_cadastrossetor.show;
+end;
+
+procedure Tf_principal.BtnSobreClick(Sender: TObject);
+begin
+  f_sobre.show;
 end;
 
 procedure Tf_principal.BtnSairClick(Sender: TObject);

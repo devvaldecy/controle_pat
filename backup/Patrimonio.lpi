@@ -18,7 +18,7 @@
       <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
       <MajorVersionNr Value="1"/>
-      <BuildNr Value="10"/>
+      <BuildNr Value="12"/>
       <Attributes pvaDebug="True" pvaPreRelease="True" pvaPatched="True" pvaPrivateBuild="True" pvaSpecialBuild="True"/>
       <StringTable Comments="Valdecy Informática" CompanyName="Valdecy Informática LTDA" FileDescription="Controle Patrimonial" InternalName="Syspat" LegalCopyright="@Valdecy Info" LegalTrademarks="@Valdecy Info" OriginalFilename="Syspat" ProductName="Syspat - Sistema de Controle Patrimonio" ProductVersion="1.0.0.10"/>
     </VersionInfo>
@@ -83,6 +83,13 @@
         <Filename Value="u_cadpadrao.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="f_cadpadrao"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="usobre.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="f_sobre"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit>
