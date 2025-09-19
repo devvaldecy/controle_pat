@@ -1,10 +1,9 @@
 object f_cadpadrao: Tf_cadpadrao
   Left = 984
-  Height = 330
+  Height = 309
   Top = 234
-  Width = 589
+  Width = 546
   Caption = 'Formulário Padrão'
   KeyPreview = True
-  LCLVersion = '4.2.0.0'
   OnKeyPress = FormKeyPress
 end

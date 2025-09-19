@@ -56,9 +56,10 @@
         <ComponentName Value="f_login"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
         <TopLine Value="94"/>
         <CursorPos X="39" Y="127"/>
-        <UsageCount Value="137"/>
+        <UsageCount Value="140"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -68,10 +69,9 @@
         <ComponentName Value="f_cadpadrao"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="4"/>
         <CursorPos X="81" Y="26"/>
-        <UsageCount Value="35"/>
+        <UsageCount Value="38"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -84,7 +84,7 @@
       <Unit>
         <Filename Value="usobre.lfm"/>
         <EditorIndex Value="5"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="12"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
@@ -95,7 +95,7 @@
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="6"/>
         <TopLine Value="48"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="12"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
