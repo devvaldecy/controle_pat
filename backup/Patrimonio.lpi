@@ -19,6 +19,7 @@
       <AutoIncrementBuild Value="True"/>
       <MajorVersionNr Value="1"/>
       <BuildNr Value="12"/>
+      <Language Value="0416"/>
       <Attributes pvaDebug="True" pvaPreRelease="True" pvaPatched="True" pvaPrivateBuild="True" pvaSpecialBuild="True"/>
       <StringTable Comments="Valdecy Informática" CompanyName="Valdecy Informática LTDA" FileDescription="Controle Patrimonial" InternalName="Syspat" LegalCopyright="@Valdecy Info" LegalTrademarks="@Valdecy Info" OriginalFilename="Syspat" ProductName="Syspat - Sistema de Controle Patrimonio" ProductVersion="1.0.0.10"/>
     </VersionInfo>

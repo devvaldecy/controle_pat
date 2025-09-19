@@ -2156,16 +2156,16 @@ object f_login: Tf_login
         ParentFont = False
       end
       object Label4: TLabel
-        Left = 36
+        Left = 33
         Height = 15
-        Top = 334
+        Top = 333
         Width = 154
         Caption = 'Todos direitos são reservados'
       end
       object Label5: TLabel
-        Left = 196
+        Left = 193
         Height = 15
-        Top = 334
+        Top = 333
         Width = 136
         Caption = '©Valdecy Infor softhouse'
       end

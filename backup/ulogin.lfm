@@ -2180,7 +2180,7 @@ object f_login: Tf_login
         Height = 25
         Top = 276
         Width = 126
-        Caption = 'Versão 1.0.0.10'
+        Caption = 'Versão 1.0.0.12'
         Font.CharSet = ANSI_CHARSET
         Font.Height = -19
         Font.Name = 'Segoe UI Semibold'
