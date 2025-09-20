@@ -13,6 +13,15 @@ type
   { Tf_cadpadrao }
 
   Tf_cadpadrao = class(TForm)
+    BitBtn6: TBitBtn;
+    BtnAlterar: TBitBtn;
+    BtnCancelar: TBitBtn;
+    BtnDeletar: TBitBtn;
+    BtnNovo: TBitBtn;
+    BtnPesquisar: TBitBtn;
+    BtnSalvar: TBitBtn;
+    PnlLest: TPanel;
+    PnlTop: TPanel;
     procedure FormKeyPress(Sender: TObject; var Key: char);
   private
 

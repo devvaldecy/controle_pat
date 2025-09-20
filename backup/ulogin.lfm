@@ -8,8 +8,9 @@ object f_login: Tf_login
   ClientHeight = 356
   ClientWidth = 743
   KeyPreview = True
-  OnKeyPress = FormKeyPress
   Position = poMainFormCenter
+  LCLVersion = '4.2.0.0'
+  OnKeyPress = FormKeyPress
   object pnlCentro: TPanel
     Left = 0
     Height = 356
@@ -36,7 +37,6 @@ object f_login: Tf_login
         Top = 0
         Width = 390
         Align = alClient
-        OnClick = imgLogoClick
         Picture.Data = {
           0A544A706567496D616765F6DE0000FFD8FFE000104A46494600010101006000
           600000FFE100BC45786966000049492A00080000000600120103000100000001
@@ -1825,6 +1825,7 @@ object f_login: Tf_login
           9A5A33FFD9
         }
         Stretch = True
+        OnClick = imgLogoClick
       end
     end
     object Panel1: TPanel
@@ -1964,8 +1965,8 @@ object f_login: Tf_login
           0000000000000000000000000000000000000000000000000000000000000000
           0000000000000000000000000000000000000000000000000000
         }
-        OnClick = btnLoginClick
         TabOrder = 2
+        OnClick = btnLoginClick
       end
       object btnReset: TBitBtn
         Left = 187
@@ -2049,8 +2050,8 @@ object f_login: Tf_login
           0000000000000000000000000000000000000000000000000000000000000000
           0000000000000000000000000000000000000000000000000000
         }
-        OnClick = btnResetClick
         TabOrder = 3
+        OnClick = btnResetClick
       end
       object btnFechar: TSpeedButton
         Left = 331
@@ -2179,8 +2180,8 @@ object f_login: Tf_login
         Left = 120
         Height = 25
         Top = 276
-        Width = 126
-        Caption = 'Versão 1.0.0.12'
+        Width = 125
+        Caption = 'Versão 1.0.0.17'
         Font.CharSet = ANSI_CHARSET
         Font.Height = -19
         Font.Name = 'Segoe UI Semibold'

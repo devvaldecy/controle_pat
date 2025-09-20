@@ -3,7 +3,7 @@ object f_principal: Tf_principal
   Height = 749
   Top = 13
   Width = 1051
-  Caption = 'PATRIMONIO - Controle de bens VERSÃO.: 1.0.0.0'
+  Caption = 'PATRIMONIO - Controle de bens VERSÃO.: 1.0.0.17'
   ClientHeight = 749
   ClientWidth = 1051
   Color = clForm
@@ -2454,6 +2454,7 @@ object f_principal: Tf_principal
       }
       ParentFont = False
       TabOrder = 3
+      OnClick = BitBtn1Click
     end
     object BtnSobre: TBitBtn
       Left = 2

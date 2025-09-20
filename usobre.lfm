@@ -2273,7 +2273,7 @@ object f_sobre: Tf_sobre
         Height = 15
         Top = 176
         Width = 44
-        Caption = '1.0.0.15'
+        Caption = '1.0.0.20'
         Font.CharSet = ANSI_CHARSET
         Font.Pitch = fpVariable
         Font.Quality = fqDraft

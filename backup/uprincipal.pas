@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, Buttons,
-  ComCtrls, StdCtrls, ucadset, usobre, ulogin;
+  ComCtrls, StdCtrls, ucadset, usobre, u_cadpadrao, ulogin;
 
 type
 
@@ -36,6 +36,7 @@ type
     PnlTop: TPanel;
     StatusBar1: TStatusBar;
     Tmtrelogio: TTimer;
+    procedure BitBtn1Click(Sender: TObject);
     procedure BtnSobreClick(Sender: TObject);
     procedure BntSetorClick(Sender: TObject);
     procedure BtnSairClick(Sender: TObject);
@@ -73,6 +74,16 @@ begin
     f_sobre.ShowModal;
   finally
     FreeAndNil(f_sobre);
+  end;
+end;
+
+procedure Tf_principal.BitBtn1Click(Sender: TObject);
+begin
+  f_cadpadrao := Tf_cadpadrao.Create(Self);
+  try
+    f_cadpadrao.ShowModal;
+  finally
+    FreeAndNil(f_cadpadrao);
   end;
 end;
 
