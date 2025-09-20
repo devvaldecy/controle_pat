@@ -8,6 +8,7 @@ object f_sobre: Tf_sobre
   ClientHeight = 289
   ClientWidth = 585
   Position = poMainFormCenter
+  LCLVersion = '4.2.0.0'
   object pnlCentro: TPanel
     Left = 0
     Height = 289
@@ -2272,7 +2273,7 @@ object f_sobre: Tf_sobre
         Height = 15
         Top = 176
         Width = 44
-        Caption = '1.0.0.12'
+        Caption = '1.0.0.15'
         Font.CharSet = ANSI_CHARSET
         Font.Pitch = fpVariable
         Font.Quality = fqDraft

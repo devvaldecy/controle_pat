@@ -23,7 +23,6 @@ begin
   Application.CreateForm(Tf_principal, f_principal);
   Application.CreateForm(TDM, DM);
   Application.CreateForm(Tf_cadpadrao, f_cadpadrao);
-  Application.CreateForm(Tf_cadastrossetor, f_cadastrossetor);
   Application.Run;
 end.
 

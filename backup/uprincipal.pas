@@ -57,12 +57,23 @@ implementation
 
 procedure Tf_principal.BntSetorClick(Sender: TObject);
 begin
-  f_cadastrossetor.show;
+    f_cadastrossetor := Tf_cadastrossetor.Create(Self);
+  try
+    f_cadastrossetor.ShowModal;
+  finally
+    FreeAndNil(f_cadastrossetor);
+  end;
+
 end;
 
 procedure Tf_principal.BtnSobreClick(Sender: TObject);
 begin
-  f_sobre.show;
+  f_sobre := Tf_sobre.Create(Self);
+  try
+    f_sobre.ShowModal;
+  finally
+    FreeAndNil(f_sobre);
+  end;
 end;
 
 procedure Tf_principal.BtnSairClick(Sender: TObject);

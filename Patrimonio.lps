@@ -17,10 +17,8 @@
         <ComponentName Value="f_principal"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
         <TopLine Value="54"/>
-        <CursorPos X="23" Y="69"/>
-        <ComponentState Value="2"/>
+        <CursorPos X="32" Y="64"/>
         <UsageCount Value="206"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -42,10 +40,12 @@
         <ComponentName Value="DM"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
-        <EditorIndex Value="-1"/>
+        <EditorIndex Value="3"/>
         <TopLine Value="6"/>
         <CursorPos Y="42"/>
         <UsageCount Value="237"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="ulogin.pas"/>
@@ -53,10 +53,13 @@
         <ComponentName Value="f_login"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="105"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="104"/>
         <CursorPos X="18" Y="127"/>
-        <UsageCount Value="143"/>
+        <UsageCount Value="147"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="u_cadpadrao.pas"/>
@@ -67,7 +70,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="4"/>
         <CursorPos X="15" Y="26"/>
-        <UsageCount Value="41"/>
+        <UsageCount Value="45"/>
       </Unit>
       <Unit>
         <Filename Value="usobre.pas"/>
@@ -75,9 +78,11 @@
         <ComponentName Value="f_sobre"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="48"/>
-        <UsageCount Value="23"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="42"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="udm.lfm"/>
@@ -92,7 +97,12 @@
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory>
+      <Position>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="65" TopLine="54"/>
+      </Position>
+    </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>
