@@ -11,7 +11,8 @@
         6 - Ferramenta de manipulação do bando de dados dbeaser e flamerobim
 
         Este sistema é ideal para empresas fazerem o seu controle de bens 
-        possui cadastro de equipamentos, emrpesas , setores, usuarios, clientes, fornecedores tem um tela de transferências de equipamentos
+        possui cadastro de equipamentos, emrpesas , setores, usuarios, clientes
+        fornecedores tem um tela de transferências de equipamentos
         sistema 100% funcional funciona em pequenas e grandes empresas
         relatório etc.
 
